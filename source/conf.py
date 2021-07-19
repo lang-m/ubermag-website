@@ -10,10 +10,11 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
-
+import os
+import sys
+print(os.getcwd())
+sys.path.insert(0, os.path.abspath('../../discretisedfield'))
+sys.path.insert(0, os.path.abspath('../../oommfc'))
 
 # -- Project information -----------------------------------------------------
 
@@ -59,11 +60,25 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 html_theme = 'pydata_sphinx_theme'
-html_logo = "source/_static/logo.png"
-
+html_logo = "_static/logoL.svg"
+html_sidebars = {
+    "**": ["sidebar-nav-bs"],
+    "installation": [],
+    "quickstart": [],
+    "help": [],
+    "index": [],
+}
+html_favicon = "_static/logo.ico"
 html_theme_options = {
-    "github_url": "https://github.com/ubermag/ubermag",
+    "icon_links": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/ubermag",
+            "icon": "fab fa-github-square",
+        },
+    ],
     "show_toc_level": 1,
+    "navbar_end": ["navbar-icon-links.html", "search-field.html"]
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,

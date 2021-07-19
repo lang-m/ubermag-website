@@ -1,44 +1,134 @@
-Ubermag
-=======
+Ubermag - Features and packages
+===============================
 
-Ubermag is ...
+Ubermag is a collection of several independent packages that can be used
+independently as well as in combination. The whole set of packages -- the
+``ubermag`` meta-package -- is tight to micromagnetic simulations. The
+individual sub-packages can be used in other fields, e.g. fluid dynamics.
 
-sub-packages
+Finite-difference fields -- ``discretisedfield``
+------------------------------------------------
+.. image:: _static/field-examples.svg
+   :alt: examples for a field visualisation
 
-Non-magnetic
-------------
--> discretisedfield only
+- Three-dimensional finite-different scalar or vector fields independent of the underlying physics
+- It provides common field operations such as
+
+  - Mathematical operations (standard operations, derivatives, integration, ...)
+  - Specific tools, e.g. topological charge density (``discretisedfield.tools``)
+  - Visualisation with ``matplotlib`` and ``k3d``
+  - Reading and writing ``vtk``, ``ovf``, and ``hdf5`` files
+
+- Possible applications are amongs others
+
+  - Micromagnetics
+  - Fluid dynamics
+
+Micromagnetic problem description -- ``micromagneticmodel``
+-----------------------------------------------------------
+
+- Physics of the micromagnetic system
+- Energy equation (Exchange energy, Zeeman energy, DMI, ...)
+- Dynamics equation (damping, precession, currents, ...)
+
+.. figure:: _static/interoperability.svg
+
+   Magnetic systems (left-to-right): Skyrmions, vortex, Bloch point [renderings created with Blender]
+
+OOMMF-based micromagnetic simulations -- ``oommfc``
+---------------------------------------------------
+
+.. image:: _static/oommfc-examples.svg
+
+Analysis of micromagnetic simulations -- ``micromagneticdata``
+--------------------------------------------------------------
+.. image:: _static/analysis-examples.svg
+
+Simulations of magnetic measurements -- ``exsim``
+-------------------------------------------------
+.. image:: _static/exsim-examples.svg
+
+...
+---
+
+What is ``ubermag``?
+--------------------
+
+As a whole, ``ubermag`` is a level of (Python) utilities sitting above ("*über*")
+existing micromagnetic simulation packages, such as OOMMF and mumax3. We refer
+to packages such as OOMMF and mumax3 as the *computational backends*, or as
+(micromagnetic) *calculators*.
+
+By exposing micromagnetic simulations to the Python ecosystem and integration
+into Jupyter, all the popular tools used in scientific computing for data
+analysis, numerical analysis, visualisation, machine learning, etc. become
+readily available.
+
+The ``ubermag`` Python packages allow to specify a micromagnetic problem (without
+making use of any micromagnetic calculator). Only when the micromagnetic problem
+needs to be solved, the task is delegated to the computational backend.
+
+Design objectives of Ubermag are:
+
+1. Work towards a common interface (domain spacific language) to multiple simulation packages,
+
+2. Expose micromagnetic simulations to Python ecosystem,
+
+3. Make it easier to compare simulation results obtained with different simulation packages, and
+
+4. Allow execution of micromagnetic simulation in the cloud.
+
+Documentation and tutorials
+===========================
+
+The examples shown in `quickstart <quickstart.html>`_ and the `workshop
+<workshop/index.html>`_ are tight to micromagnetic simulations.
+Only the more commonly used features are covered in there.
+`Documentation <documentation/index.html>`_ and `API
+Reference <api/index.html>`_ provide the full documentation for the
+individual packages.
+
+If you are new and plan to use Ubermag for micromagnetic simulations please
+start with the `workshop <workshop/index.html>`_ or the `quickstart
+<quickstart.html>`_ example.
+
+Otherwise, please directly refer to the `documentation 
+<documentation/index.html>`_ or the `API reference <api/index.html>`_.
 
 Authors
--------
+=======
 Marijan Beg, Martin Lang, ..., and Hans Fangohr
 
-Features
-========
+``ubermag`` in the cloud
+========================
 
-Problem specification
----------------------
+If you do not want to install `ubermag` on your machine, you can use it in the
+cloud via Binder. This does not require you to have anything installed on your
+machine and no files will be created. To access it, please use the following
+badge:
 
-Simulation
-----------
+.. image:: https://mybinder.org/badge_logo.svg
+   :target: https://mybinder.org/v2/gh/ubermag/ubermag/master?filepath=docs%2Fipynb%2Findex.ipynb
 
-Analysis
---------
-
-Experimental simulations
-------------------------
-
-Interoperability
-----------------
+You can setup your own simulation from scratch or upload the notebook you
+prepared previouly. Please remember to download the notebook after you are done,
+so that you can upload it again when you start a new online session.
 
 How to cite
 ===========
 
 Beg et al, ..., 2021
 
+Acknowledgements
+================
+
+Ubermag is a part of the Horizon 2020 European Research Infrastructure
+`OpenDreamKit <https://opendreamkit.org>`_ project (Project ID 676541). This work was supported by the Fonds
+Wetenschappelijk Onderzoek (FWO-Vlaanderen) through Project No. G098917N (Jeroen
+Mulkers) and with a postdoctoral fellowship (Jonathan Leliaert).
+
 .. toctree::
    :maxdepth: 1
-   :caption: Contents:
    :hidden:
 
    installation

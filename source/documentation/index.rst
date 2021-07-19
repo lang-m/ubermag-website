@@ -7,9 +7,8 @@ Detailed documentation based on notebooks
 
 .. toctree::
     :maxdepth: 1
-    :caption: Subpackages
+    :caption: Packages
 
     discretisedfield/index
     oommfc/index
-    ubermagutil/index
     

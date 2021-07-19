@@ -2,11 +2,9 @@
 Workshop
 ========
 
-Interactive Workshop to get started
+This workshop will guide you through the basics and some advanced features of using ``ubermag`` for micromagnetic simulations. The workshop has been presented ... . A recording of the sessions is available on `YouTube <https://youtube.com/channel/UC7MSqVQSMFV42R1jAYmKGLg>`_.
 
-Videos on YouTube => Link
-
-Notebooks can be executed in the Cloud (Binder)
+You can execute all notebooks in the cloud without the need to install anything. Please use the respective ``Binder`` badges shown on the individual tutorial pages.
 
 Session 1
 =========
