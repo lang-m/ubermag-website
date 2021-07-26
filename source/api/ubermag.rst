@@ -1,12 +1,11 @@
-======
-oommfc
-======
+=======
+ubermag
+=======
 
 .. autosummary::
     :toctree: _autosummary
-    :caption: oommfc
+    :caption: ubermag
     :template: module-template.rst
     :recursive:
  
-    oommfc
-    oommfc.oommf
+    ubermag

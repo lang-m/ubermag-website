@@ -12,6 +12,13 @@ BUILDDIR      = build
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
+prepare:
+	mkdir "packages"
+	git clone --depth 1 "https://github.com/ubermag/discretisedfield.git" "packages/discretisedfield"
+	git clone --depth 1 "https://github.com/ubermag/ubermagutil.git" "packages/ubermagutil"
+	git clone --depth 1 "https://github.com/ubermag/ubermag.git" "packages/ubermag"
+	cp packages/ubermag/docs/changelog.rst source/changelog.rst
+
 .PHONY: help Makefile
 
 # Catch-all target: route all unknown targets to Sphinx using the new

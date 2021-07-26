@@ -7,4 +7,10 @@ API Reference
     :caption: Packages
 
     discretisedfield
+    micromagneticdata
+    micromagneticmodel
+    micromagnetictests
     oommfc
+    ubermag
+    ubermagtable
+    ubermagutil

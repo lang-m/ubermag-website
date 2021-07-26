@@ -136,6 +136,7 @@ Mulkers) and with a postdoctoral fellowship (Jonathan Leliaert).
    workshop/index
    documentation/index
    api/index
+   changelog
    help
 
 
