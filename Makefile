@@ -18,3 +18,12 @@ help:
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+
+pydata-sphinx-theme:
+	git clone https://github.com/pydata/pydata-sphinx-theme.git
+
+setup:
+	make pydata-sphinx-theme
+	pip install -r requirements.txt
+  
