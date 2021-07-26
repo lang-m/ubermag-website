@@ -1,0 +1,9 @@
+channels:
+  - conda-forge
+
+dependencies:
+  - matplotlib>=3.3
+  - nbsphinx>=0.8.5
+  - pydata-sphinx-theme>=0.6.3
+  - sphinx>=4.1
+  - ubermag==0.5.1

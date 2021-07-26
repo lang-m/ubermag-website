@@ -13,8 +13,10 @@
 import os
 import sys
 print(os.getcwd())
-sys.path.insert(0, os.path.abspath('../../discretisedfield'))
-sys.path.insert(0, os.path.abspath('../../oommfc'))
+sys.path.insert(0, os.path.abspath('..'))
+# Paths might be required in the future
+# sys.path.insert(0, os.path.abspath('../discretisedfield'))
+# sys.path.insert(0, os.path.abspath('../oommfc'))
 
 # -- Project information -----------------------------------------------------
 
@@ -35,7 +37,6 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.mathjax',
     'nbsphinx',
-    'm2r2',
     'matplotlib.sphinxext.plot_directive'
 ]
 
