@@ -41,9 +41,7 @@ install any ``PACKAGE`` by running:
 
    $ conda install --channel conda-forge PACKAGE
 
-.. note::
-
-   Example for ``ubermag``
+.. topic:: Example for ``ubermag``
 
    .. code-block:: bash
 
@@ -67,9 +65,7 @@ You can test the installation by running:
 
    $ python -c "import PACKAGE; PACKAGE.test()"
 
-.. note::
-
-   Example for ``ubermag``
+.. topic:: Example for ``ubermag``
 
    .. code-block:: bash
 
@@ -86,9 +82,7 @@ Every ``PACKAGE`` can be updated by running:
 
    $ conda update PACKAGE
 
-.. note::
-
-   Example for ``ubermag``
+.. topic:: Example for ``ubermag``
 
    .. code-block:: bash
 
