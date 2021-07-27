@@ -39,17 +39,39 @@ OOMMF-based micromagnetic simulations -- ``oommfc``
 ---------------------------------------------------
 
 .. image:: _static/oommfc-examples.svg
+- An Object Oriented MicroMagnetic Framework OOMMF calculator for computational
+  magnetism models defined with ``micromagneticmodel``
 
 Analysis of micromagnetic simulations -- ``micromagneticdata``
 --------------------------------------------------------------
 .. image:: _static/analysis-examples.svg
 
-Simulations of magnetic measurements -- ``exsim``
--------------------------------------------------
-.. image:: _static/exsim-examples.svg
+..
+   Simulations of magnetic measurements -- ``exsim``
+   -------------------------------------------------
+   .. image:: _static/exsim-examples.svg
 
-...
----
+Reading scalar simulation data files - ``ubermagtable``
+-------------------------------------------------------
+
+- Reading scalar data files (OOMMF ``.odt`` and mumax3 ``.txt``)
+- Merging multiple tables
+- Visualisation of scalar table data
+
+
+``micromagnetictests``
+----------------------
+
+- tests for ``oommfc``
+
+Typesystem and utilities - ``ubermagutil``
+------------------------------------------
+
+- Definition of typesystem descriptors and decorators
+- Documentation inheritance decorators
+- Determining SI prefixes
+- Various convenience functions
+
 
 What is ``ubermag``?
 --------------------
