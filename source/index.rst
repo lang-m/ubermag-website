@@ -117,10 +117,6 @@ start with the `workshop <workshop/index.html>`_ or the `quickstart
 Otherwise, please directly refer to the `documentation 
 <documentation/index.html>`_ or the `API reference <api/index.html>`_.
 
-Authors
-=======
-Marijan Beg, Martin Lang, ..., and Hans Fangohr
-
 ``ubermag`` in the cloud
 ========================
 
@@ -136,14 +132,33 @@ You can setup your own simulation from scratch or upload the notebook you
 prepared previouly. Please remember to download the notebook after you are done,
 so that you can upload it again when you start a new online session.
 
+Authors
+=======
+
+Marijan Beg\ :sup:`1, 2`, Martin Lang\ :sup:`2, 3`, Ryan A. Pepper\ :sup:`2`,
+Thomas Kluyver\ :sup:`4`, Jeroen Mulkers\ :sup:`5`, Jonathan Leliaert\ :sup:`5`,
+and Hans Fangohr\ :sup:`2, 3, 6`
+
+- :sup:`1` Department of Earth Science and Engineering, Imperial College London,
+  London SW7 2AZ, United Kingdom
+- :sup:`2` Faculty of Engineering and Physical Sciences, University of
+  Southampton, Southampton SO17 1BJ, United Kingdom
+- :sup:`3` Max Planck Institute for the Structure and Dynamics of Matter,
+  Luruper Chaussee 149, 22761 Hamburg, Germany
+- :sup:`4` European XFEL GmbH, Holzkoppel 4, 22869 Schenefeld, Germany
+- :sup:`5` Faculty of Sciences, Ghent University, Krijgslaan 281, S12, 9000
+  Ghent, Belgium
+- :sup:`6` Center for Free-Electron Laser Science, Luruper Chaussee 149, 22761
+  Hamburg, Germany.
+
 How to cite
 ===========
 
-If you use Ubermag or any of its sub-packages for your work, please cite:
+If you use Ubermag or any of its sub-packages for your research please cite:
 
 M. Beg, M. Lang and H. Fangohr, "Ubermag: Towards more effective micromagnetic
 workflows," in `IEEE Transactions on Magnetics
-<doi.org/10.1109/TMAG.2021.3078896>`_.
+<https://doi.org/10.1109/TMAG.2021.3078896>`_.
 
 .. code-block:: bib
 
