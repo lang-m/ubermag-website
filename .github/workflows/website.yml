@@ -23,7 +23,7 @@ jobs:
       run: make prepare
 
     - name: Build website
-      run: make build
+      run: make html
 
     - name: Deploy changes
       uses: JamesIves/github-pages-deploy-action@4.1.4
