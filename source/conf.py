@@ -34,10 +34,11 @@ author = ('Marijan Beg, Martin Lang, Ryan A. Pepper, Thomas Kluyver, '
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
-    'sphinx.ext.napoleon',
+    'sphinx.ext.githubpages',  # creates .nojekyll file in HTML directory
     'sphinx.ext.mathjax',
+    'sphinx.ext.napoleon',
+    'matplotlib.sphinxext.plot_directive',
     'nbsphinx',
-    'matplotlib.sphinxext.plot_directive'
 ]
 
 # matplotlib plot directive
