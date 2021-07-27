@@ -1,5 +1,8 @@
 name: publish website
 
+on:
+  workflow-dispatch:
+
 jobs:
   publish:
     runs-on: ubuntu-latest
