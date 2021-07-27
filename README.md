@@ -2,12 +2,13 @@
 
 Temporary repository for preparing the new website.
 
-## Installing depenencies and building
+## Building
 
-In a fresh `conda` environment run:
 ```bash
 conda env update
+make prepare
 make html
+make clean  # optional
 ```
 
 ## Preview

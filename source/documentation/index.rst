@@ -9,6 +9,10 @@ Detailed documentation based on notebooks
     :maxdepth: 1
     :caption: Packages
 
-    discretisedfield/index
-    oommfc/index
-    
+    discretisedfield
+    micromagneticdata
+    micromagneticmodel
+    micromagnetictests
+    oommfc
+    ubermagtable
+    ubermagutil

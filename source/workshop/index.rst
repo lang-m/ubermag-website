@@ -20,8 +20,8 @@ first Ubermag simulation and have a look at some Python basics.
     :caption: Session 1
     :numbered:
 
-    first-ubermag-simulation
-    python-basics
+    tutorials/first-ubermag-simulation
+    tutorials/python-basics
     
 We believe we do not need much Python knowledge in order to run ubermag.
 However, more you feel confident writing Python, more benefits you can get from
@@ -50,15 +50,15 @@ look at the exercise.
     :caption: Session 2
     :numbered:
     
-    magnetisation-field
-    energy-equation
-    dynamics-equation
-    vortex-dynamics
-    spatially-varying-parameters1
-    spatially-varying-parameters2
-    periodic-boundary-conditions
-    driving-dw
-    dw-pair-conversion
+    tutorials/magnetisation-field
+    tutorials/energy-equation
+    tutorials/dynamics-equation
+    tutorials/vortex-dynamics
+    tutorials/spatially-varying-parameters1
+    tutorials/spatially-varying-parameters2
+    tutorials/periodic-boundary-conditions
+    tutorials/driving-dw
+    tutorials/dw-pair-conversion
 
 Session 3
 =========
@@ -73,25 +73,25 @@ micromagnetic concepts as well.
     :caption: Session 3
     :numbered:
     
-    choosing-runner
-    multiple-terms
-    rkky
-    time-dependent-field
-    negative-A
-    energy-term-computations
-    field-operations1
-    field-operations2
-    file-formats
-    line
-    table-basics
-    table-visualisation
-    table-interactive-plot
-    region-visualisation
-    mesh-visualisation
-    mpl-visualisation
-    k3d-visualisation
-    interactive-plotting
-    various-topics
+    tutorials/choosing-runner
+    tutorials/multiple-terms
+    tutorials/rkky
+    tutorials/time-dependent-field
+    tutorials/negative-A
+    tutorials/energy-term-computations
+    tutorials/field-operations1
+    tutorials/field-operations2
+    tutorials/file-formats
+    tutorials/line
+    tutorials/table-basics
+    tutorials/table-visualisation
+    tutorials/table-interactive-plot
+    tutorials/region-visualisation
+    tutorials/mesh-visualisation
+    tutorials/mpl-visualisation
+    tutorials/k3d-visualisation
+    tutorials/interactive-plotting
+    tutorials/various-topics
 
 Session 4
 =========
@@ -104,13 +104,13 @@ simulation techniques.
     :caption: Session 4
     :numbered:
     
-    angle-hls-plot
-    hysteresis
-    dirname
-    fixed-subregions
-    parallel
-    mindriver-steps
-    subfields
-    space-time-field
-    sine-hysteresis
-    integrals
+    tutorials/angle-hls-plot
+    tutorials/hysteresis
+    tutorials/dirname
+    tutorials/fixed-subregions
+    tutorials/parallel
+    tutorials/mindriver-steps
+    tutorials/subfields
+    tutorials/space-time-field
+    tutorials/sine-hysteresis
+    tutorials/integrals
