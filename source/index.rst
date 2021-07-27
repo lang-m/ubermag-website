@@ -149,7 +149,7 @@ workflows," in `IEEE Transactions on Magnetics
 
    @article{beg2021,
      author = {Beg, Marijan and Lang, Martin and Fangohr, Hans},
-     journal = {IEE Transactions on Magneticns},
+     journal = {IEEE Transactions on Magnetics},
      title = {Ubermag: Towards more effective micromagnetic workflows},
      year = {2021},
      volume = {},
