@@ -47,8 +47,8 @@ Analysis of micromagnetic simulations -- ``micromagneticdata``
 .. image:: _static/analysis-examples.svg
 
 ..
-   Simulations of magnetic measurements -- ``exsim``
-   -------------------------------------------------
+   Simulations of magnetic measurements -- ``mag2exp``
+   ---------------------------------------------------
    .. image:: _static/exsim-examples.svg
 
 Reading scalar simulation data files - ``ubermagtable``
@@ -139,7 +139,24 @@ so that you can upload it again when you start a new online session.
 How to cite
 ===========
 
-Beg et al, ..., 2021
+If you use Ubermag or any of its sub-packages for your work, please cite:
+
+M. Beg, M. Lang and H. Fangohr, "Ubermag: Towards more effective micromagnetic
+workflows," in `IEEE Transactions on Magnetics
+<doi.org/10.1109/TMAG.2021.3078896>`_.
+
+.. code-block:: bib
+
+   @article{beg2021,
+     author = {Beg, Marijan and Lang, Martin and Fangohr, Hans},
+     journal = {IEE Transactions on Magneticns},
+     title = {Ubermag: Towards more effective micromagnetic workflows},
+     year = {2021},
+     volume = {},
+     number = {},
+     pages = {1-1},
+     doi = {10.1109/TMAG.2021.3078896}
+   }
 
 License
 =======
