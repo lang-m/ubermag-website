@@ -119,6 +119,11 @@ How to cite
 
 Beg et al, ..., 2021
 
+License
+=======
+
+Licensed under the BSD 3-Clause “New” or “Revised” License. For details, please refer to the LICENSE file.
+
 Acknowledgements
 ================
 
