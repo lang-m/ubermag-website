@@ -32,7 +32,7 @@ prepare:
 	cp -r packages/workshop/tutorials source/workshop/tutorials
 
 clean:
-	rm -rf packages source/changelog.rst source/workshop/tutorials source/documentation/ipynb
+	rm -rf packages source/changelog.rst source/workshop/tutorials source/documentation/ipynb source/api/_autosummary
 
 .PHONY: help prepare clean Makefile
 
